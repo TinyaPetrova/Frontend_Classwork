@@ -1,0 +1,38 @@
+body {
+    background-color: bisque;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blue_text {
+    color: rgb(115, 115, 219);
+}
+
+.centered_text {
+    text-align: center;
+}
+
+.red_text {
+    color: darkred;
+}
+
+.big_text {
+    font-size: 22px;
+    background-color: rgb(185, 168, 157);
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(231, 203, 158);
+}
+
+.yellow {
+    background-color: darkgoldenrod;
+}
+
+/* стили для круглого элемента */
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 30%;
+}
