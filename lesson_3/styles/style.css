@@ -1,0 +1,63 @@
+.square {
+    width: 200px;
+    height: 270px;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 7%;
+    /* прячет паддинг вовнутрь эл-та */
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.main-heading {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.red {
+    margin: 30px 20px 40px 20px;
+    border: 2px solid;
+    background-color: rgb(255, 105, 105);
+}
+
+.blue {
+    border: thick double #32a1ce;
+    background-color: rgb(125, 251, 255);
+}
+
+.square:hover {
+    background-color: orange;
+}
+
+.green {
+    border: 2px dashed rgb(39, 165, 39);
+    background-color: rgb(211, 248, 174);
+}
+
+.box-heading {
+    text-align: left;
+}
+
+.box-image {
+    width: 110px;
+    display: block;
+    margin: auto;
+}
+
+.box-image-cover {
+    width: 150px;
+    height: 100px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/4414/4414489.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cat {
+    background-image: url('https://png.pngtree.com/png-clipart/20230512/original/pngtree-cat-on-white-background-png-image_9158406.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
