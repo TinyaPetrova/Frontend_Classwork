@@ -1,0 +1,42 @@
+h1 {
+    margin: 0;
+}
+
+.button {
+    margin-bottom: 5px;
+}
+
+.buttons {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#btn1 {
+    background-color: #da8f8f;
+}
+
+#btn2 {
+    background-color: #93ebdc;
+}
+
+#btn3 {
+    background-color: #e4ef84;
+}
+
+#btn4 {
+    background-color: #ef84e1;
+}
+
+.hidden {
+    /* эл-т пропадает из потока */
+    /* display: none; */
+
+    /* эл-т остается в потоке и становится невидимым*/
+    visibility: hidden;
+    background-color: #348294;
+}
+
+#btn6 {
+    background-color: #e1943d;
+}
