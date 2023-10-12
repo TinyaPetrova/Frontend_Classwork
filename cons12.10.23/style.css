@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  background-color: #f5ead7;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2 {
+  color: brown;
+  font-family: "Montserrat", sans-serif;
+}
+
+input[type="text"],
+button {
+  border: 3px solid #f495bf;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  outline: none;
+  color: brown;
+  background-color: #f5d5e3;
+  height: 25px;
+}
+
+input[placeholder="Enter amount of items here"] {
+  color: brown;
+}
