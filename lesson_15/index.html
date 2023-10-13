@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        Upload the items:
+    </h1>
+    <form id="formItems" class="center" action="">
+        <input name="formAmount" placeholder="Enter the amount" type="text" required>
+        <button type="submit">
+            Upload
+        </button>
+    </form>
+    <div style="display: none" id="loader" class="loader">
+
+    </div>
+    <div style="display: none" id="content">
+        <h2>
+            PRODUCTS LIST:
+        </h2>
+        <ul id="productList">
+
+        </ul>
+    </div>
+</body>
+
+</html>
